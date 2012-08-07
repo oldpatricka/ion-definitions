@@ -38,6 +38,13 @@ methods:
     throws:
       NotFound: object with specified id does not exist
 
+  list_process_definitions:
+    docstring: Lists all Process Definition IDs
+    in:
+    out:
+      processes: []
+
+
   # -----------------
 
   associate_execution_engine:
